@@ -4,7 +4,15 @@ function calculate_bmi(weightInkg, heightInMeters){
 }
 
 
-const weightInkg = 60;
-const heightInMeters = 1.65;
+//const weightInkg = 60;
+//const heightInMeters = 1.65;
 
-calculate_bmi(weightInkg, heightInMeters);
+//calculate_bmi(weightInkg, heightInMeters);
+
+
+//manual test 
+//w => 55 h => 1.70 should print Your BMI is 19.03
+calculate_bmi(55, 1.70);
+
+//w => 58 h => 1.68 should print Your BMI is 20.55
+calculate_bmi(58, 1.68);
